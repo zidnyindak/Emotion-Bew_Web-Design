@@ -1,0 +1,123 @@
+
+/* Styling untuk navigasi di kanan atas */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling untuk bagian hero */
+#hero {
+    background-color: #cbcbcb;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Styling untuk section menu */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu ul li {
+    font-size: 18px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #d2d2d2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#menu {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-image {
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.menu-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-details strong {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.order-btn {
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #e64a19;
+}
+
